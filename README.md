@@ -16,6 +16,7 @@ The dataset is imported from tensorflow data.
 The data can be found at https://www.tensorflow.org/datasets/catalog/stanford_dogs
 
 More information about the dataset can be found at http://vision.stanford.edu/aditya86/ImageNetDogs/
+
 ![example images](https://i.imgur.com/Mp2Te2Y.png)
 
 
