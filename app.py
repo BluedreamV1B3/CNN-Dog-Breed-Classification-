@@ -14,7 +14,7 @@ st.write("""
          """
 )
 
-#def main():
+
 file = st.file_uploader("Please upload an doggy image", type = ["jpg", "png"])
 from PIL import Image
 import numpy as np
@@ -38,5 +38,3 @@ else:
     string = "This image most likely is: "+predicted_breed_name 
     st.success(string)
     
-#if __name__ == '__main__':
-    #main()
