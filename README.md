@@ -3,7 +3,7 @@ by JengShiuan Ma
 
 [Upload your doggy here](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
 
-# The Dataset
+# The Dataset: Stanford Dogs
 The Stanford Dogs dataset has images of 120 dog breeds from around the world.
 
 The contents of the dataset are:
