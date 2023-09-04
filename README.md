@@ -1,6 +1,6 @@
 # Dog Breed Identification Using Transfer Learning
 
-[Upload your doggy here](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
+[Upload your doggy here🐶](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
 
 by BluedreamV1B3
 
