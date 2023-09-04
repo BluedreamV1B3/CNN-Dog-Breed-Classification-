@@ -22,7 +22,7 @@ More information about the dataset can be found at http://vision.stanford.edu/ad
 # Xception
 Xception is a convolutional neural network that is 71 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database . The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images.
 The network is shown below.
-![InceptionV3](Xception.png)
+![Xception](Xception.png)
 
 
 # Challenges The network might face
