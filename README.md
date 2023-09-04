@@ -22,7 +22,7 @@ More information about the dataset can be found at http://vision.stanford.edu/ad
 # Xception
 Xception is a convolutional neural network that is 71 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database . The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images.
 The network is shown below.
-![Xception](Xception.png)
+![Xception](Xception-CNN.png)
 
 
 # Challenges The network might face
@@ -37,15 +37,7 @@ As you can see Swiss mountain dogs and Bernese Mountain dogs are very similar
 
 # Overview of the entire network
 
-1. Input to Inceptionv3 (non trainable)
-2. Average Pooling 2D layer
-3. Flattening layer
-4. Dropout layer 
-5. Dense layer (240 units)
-6. Dropout layer
-7. Dense layer (240 units)
-8. Dropout layer
-9. Softmax layer (120 units)
+(experiment record.xlsx)
 
 The network uses data augmentation and dropout to reduce overfitting and is implemented in a google colab environment
 
