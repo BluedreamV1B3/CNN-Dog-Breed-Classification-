@@ -22,6 +22,7 @@ More information about the dataset can be found at http://vision.stanford.edu/ad
 # Xception
 Xception is a convolutional neural network that is 71 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database . The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images.
 The network is shown below.
+
 ![Xception](Xception-CNN.png)
 
 
@@ -34,28 +35,8 @@ As you can see Swiss mountain dogs and Bernese Mountain dogs are very similar
 ![Swiss mountain dog and Bernese mountain dog](https://i.imgur.com/Cwzthgx.jpg)
 
 
-
-# Overview of the entire network
-
-(experiment record.xlsx)
-
-The network uses data augmentation and dropout to reduce overfitting and is implemented in a google colab environment
-
-
 # Training and Testing accuracy
-After training with 80%-20% training and testing split respectively the results are as follows.
-- ***Training accuracy*** = 78%
-- ***Testing accuracy*** = 72%
+After training with 80%-20% training and validation split respectively the results are as follows.
+- ***Training accuracy*** = 94%
+- ***Testing accuracy*** = 84%
 
-***Note*** - The trained weights have been provided in the repo. Importing them has been described in the instructions below.
-
-# Instructions
-
-1. Download the code from the repository to your computer
-2. Open the ***Dog_classifier.ipynb*** file from the repository in the browser.
-3. After opening click on the 'Open in Colab' button. This will redirect you to a google colab environment.
-4. Download the files named ***'checkpoint', 'cp.ckpt.data-00000-of-00001', 'cp.ckpt.index' and 'kaggle.json'***.
-5. Run the code cells of the notebook.
-6. Ignore the code cells under headings labeled ***(*skip)*** if you only want to test the network without training.
-7. Upload the files ***'checkpoint', 'cp.ckpt.data-00000-of-00001' and 'cp.ckpt.index'*** when asked by the notebook. This will import the weights.
-8. Run the subsequent cells to upload your own images to test the network. Further instructions are given in the notebook
