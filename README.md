@@ -1,6 +1,7 @@
 # CNN-Dog-Breed-Classification-
 by JengShiuan Ma
-![Upload your doggy here](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
+
+[Upload your doggy here](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
 
 # The Dataset
 The Stanford Dogs dataset has images of 120 dog breeds from around the world.
