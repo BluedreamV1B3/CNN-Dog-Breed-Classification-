@@ -1,7 +1,8 @@
 # Dog Breed Identification Using Transfer Learning
-by BluedreamV1B3
 
 [Upload your doggy here](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
+
+by BluedreamV1B3
 
 # The Dataset: Stanford Dogs
 The Stanford Dogs dataset has images of 120 dog breeds from around the world.
