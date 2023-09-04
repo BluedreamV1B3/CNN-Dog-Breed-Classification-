@@ -1,5 +1,5 @@
-# CNN-Dog-Breed-Classification-
-by JengShiuan Ma
+# Dog Breed Identification Using Transfer Learning
+by BluedreamV1B3
 
 [Upload your doggy here](https://xvgnrrrxjup83pmyz5s4jg.streamlit.app/)
 
@@ -28,8 +28,12 @@ The network is shown below.
 
 
 # Challenges The network might face
-The dataset contains dog breeds which are visually similar to each other.
-This might cause challenges for the network.
+
+* Small inter-class variations – different breeds could have the same facial features but different colors and vise versa
+
+* Large intra-class variations – the same breed could have different poses and even colors
+
+* A great amount of background variations – photos taken in natural scenes or indoors with or without humans
 
 As you can see Swiss mountain dogs and Bernese Mountain dogs are very similar
 
