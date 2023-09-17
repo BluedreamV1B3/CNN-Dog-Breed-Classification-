@@ -1,6 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 import tensorflow_datasets as tfds
+from PIL import Image
 dataset, info = tfds.load("stanford_dogs", as_supervised=True, with_info=True)
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
@@ -12,7 +13,7 @@ model = load_model()
 
 image = Image.open('S__8716302.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='This is Poco, he is very cute')
 
 st.write("""
     # Dog Breed Classification
@@ -20,7 +21,6 @@ st.write("""
 )
 
 file = st.file_uploader("Please upload an doggy image", type = ["jpg", "png"])
-from PIL import Image
 import numpy as np
 def import_and_predict(image_data, model):
     img = tf.keras.layers.Resizing(height = 224, width = 224, crop_to_aspect_ratio = True)(image_data)
