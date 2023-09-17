@@ -9,11 +9,15 @@ def load_model():
     model = tf.keras.models.load_model('xception_0')
     return model
 model = load_model()
+
+image = Image.open('S__8716302.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
+
 st.write("""
     # Dog Breed Classification
          """
 )
-
 
 file = st.file_uploader("Please upload an doggy image", type = ["jpg", "png"])
 from PIL import Image
